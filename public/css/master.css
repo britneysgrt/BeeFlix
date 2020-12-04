@@ -1,0 +1,30 @@
+.title h1, .back-btn, .view-btn{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.title h1{
+    font-weight: bold;
+}
+
+.back-btn{
+    font-size: large;
+    background-color: #dc6048;
+    color: white;
+}
+
+.back-btn a, .view-btn a, .title h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.view-btn{
+    font-size: large;
+    background-color: whitesmoke;
+}
+
+.foot h1{
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}

@@ -1,0 +1,97 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class EpisodesTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('episodes')->insert([
+            ['movie_id' => 1, 'episode' => 'Episode 1', 'title' => 'The Boy Who Fed on Nightmares'],
+            ['movie_id' => 1, 'episode' => 'Episode 2', 'title' => 'The Lady in Red Shoes'],
+            ['movie_id' => 1, 'episode' => 'Episode 3', 'title' => 'Sleeping Witch'],
+            ['movie_id' => 1, 'episode' => 'Episode 4', 'title' => 'Zombie Kid'],
+            ['movie_id' => 1, 'episode' => 'Episode 5', 'title' => 'Rapunzel and the Cursed Castle'],
+            ['movie_id' => 1, 'episode' => 'Episode 6', 'title' => 'Bluebeard\'s Secret'],
+            ['movie_id' => 1, 'episode' => 'Episode 7', 'title' => 'The Cheerful Dog'],
+            ['movie_id' => 1, 'episode' => 'Episode 8', 'title' => 'Beauty and the Beast'],
+            ['movie_id' => 1, 'episode' => 'Episode 9', 'title' => 'King Donkey Ears'],
+            ['movie_id' => 1, 'episode' => 'Episode 10', 'title' => 'The Girl Who Cried Wolf'],
+            ['movie_id' => 2, 'episode' => 'Episode 1', 'title' => 'Episode 1'],
+            ['movie_id' => 2, 'episode' => 'Episode 2', 'title' => 'Episode 2'],
+            ['movie_id' => 2, 'episode' => 'Episode 3', 'title' => 'Episode 3'],
+            ['movie_id' => 2, 'episode' => 'Episode 4', 'title' => 'Episode 4'],
+            ['movie_id' => 2, 'episode' => 'Episode 5', 'title' => 'Episode 5'],
+            ['movie_id' => 2, 'episode' => 'Episode 6', 'title' => 'Episode 6'],
+            ['movie_id' => 2, 'episode' => 'Episode 7', 'title' => 'Episode 7'],
+            ['movie_id' => 2, 'episode' => 'Episode 8', 'title' => 'Episode 8'],
+            ['movie_id' => 2, 'episode' => 'Episode 9', 'title' => 'Episode 9'],
+            ['movie_id' => 2, 'episode' => 'Episode 10', 'title' => 'Episode 10'],
+            ['movie_id' => 3, 'episode' => 'Episode 1', 'title' => 'Episode 1'],
+            ['movie_id' => 3, 'episode' => 'Episode 2', 'title' => 'Episode 2'],
+            ['movie_id' => 3, 'episode' => 'Episode 3', 'title' => 'Episode 3'],
+            ['movie_id' => 3, 'episode' => 'Episode 4', 'title' => 'Episode 4'],
+            ['movie_id' => 3, 'episode' => 'Episode 5', 'title' => 'Episode 5'],
+            ['movie_id' => 3, 'episode' => 'Episode 6', 'title' => 'Episode 6'],
+            ['movie_id' => 3, 'episode' => 'Episode 7', 'title' => 'Episode 7'],
+            ['movie_id' => 3, 'episode' => 'Episode 8', 'title' => 'Episode 8'],
+            ['movie_id' => 3, 'episode' => 'Episode 9', 'title' => 'Episode 9'],
+            ['movie_id' => 3, 'episode' => 'Episode 10', 'title' => 'Episode 10'],
+            ['movie_id' => 4, 'episode' => 'Episode 1', 'title' => 'Start-Up'],
+            ['movie_id' => 4, 'episode' => 'Episode 2', 'title' => 'Family, Friends, Fools'],
+            ['movie_id' => 4, 'episode' => 'Episode 3', 'title' => 'Angel'],
+            ['movie_id' => 4, 'episode' => 'Episode 4', 'title' => 'Sandbox'],
+            ['movie_id' => 5, 'episode' => 'Episode 1', 'title' => 'Episode 1'],
+            ['movie_id' => 5, 'episode' => 'Episode 2', 'title' => 'Episode 2'],
+            ['movie_id' => 5, 'episode' => 'Episode 3', 'title' => 'Episode 3'],
+            ['movie_id' => 5, 'episode' => 'Episode 4', 'title' => 'Episode 4'],
+            ['movie_id' => 5, 'episode' => 'Episode 5', 'title' => 'Episode 5'],
+            ['movie_id' => 5, 'episode' => 'Episode 6', 'title' => 'Episode 6'],
+            ['movie_id' => 5, 'episode' => 'Episode 7', 'title' => 'Episode 7'],
+            ['movie_id' => 5, 'episode' => 'Episode 8', 'title' => 'Episode 8'],
+            ['movie_id' => 5, 'episode' => 'Episode 9', 'title' => 'Episode 9'],
+            ['movie_id' => 5, 'episode' => 'Episode 10', 'title' => 'Episode 10'],
+            ['movie_id' => 6, 'episode' => 'Movie', 'title' => 'The Boss Baby'],
+            ['movie_id' => 7, 'episode' => 'Movie', 'title' => 'Frozen'],
+            ['movie_id' => 8, 'episode' => 'Movie', 'title' => 'Frozen 2'],
+            ['movie_id' => 9, 'episode' => 'Movie', 'title' => 'Despicable Me'],
+            ['movie_id' => 10, 'episode' => 'Movie', 'title' => 'Kung Fu Panda 3'],
+            ['movie_id' => 11, 'episode' => 'Episode 1', 'title' => 'Nothing Left to Cling to'],
+            ['movie_id' => 11, 'episode' => 'Episode 2', 'title' => 'Back in the Sadle'],
+            ['movie_id' => 11, 'episode' => 'Episode 3', 'title' => 'Reunited'],
+            ['movie_id' => 11, 'episode' => 'Episode 4', 'title' => 'It\'s Raining Men'],
+            ['movie_id' => 11, 'episode' => 'Episode 5', 'title' => 'Breathe Again'],
+            ['movie_id' => 11, 'episode' => 'Episode 6', 'title' => 'Whistlin\' Past the Graveyard'],
+            ['movie_id' => 11, 'episode' => 'Episode 7', 'title' => 'Papa Don\'t Preach'],
+            ['movie_id' => 11, 'episode' => 'Episode 8', 'title' => 'My Shot'],
+            ['movie_id' => 11, 'episode' => 'Episode 9', 'title' => 'Let\'s All Go to the Bar'],
+            ['movie_id' => 11, 'episode' => 'Episode 10', 'title' => 'Help Me Through the Night'],
+            ['movie_id' => 12, 'episode' => 'Episode 1', 'title' => 'The One Where No One Proposes'],
+            ['movie_id' => 12, 'episode' => 'Episode 2', 'title' => 'The One Where Emma Cries'],
+            ['movie_id' => 12, 'episode' => 'Episode 3', 'title' => 'The One With the Pediatrician'],
+            ['movie_id' => 12, 'episode' => 'Episode 4', 'title' => 'The One With the Sharks'],
+            ['movie_id' => 12, 'episode' => 'Episode 5', 'title' => 'The One With Phoebe\'s Birthday'],
+            ['movie_id' => 12, 'episode' => 'Episode 6', 'title' => 'The One With the Male Nanny'],
+            ['movie_id' => 12, 'episode' => 'Episode 7', 'title' => 'The One With Ross\'s Inappropriate Song'],
+            ['movie_id' => 12, 'episode' => 'Episode 8', 'title' => 'The One With Rachel\'s Other Sister'],
+            ['movie_id' => 12, 'episode' => 'Episode 9', 'title' => 'The One With Rachel\'s Phone Number'],
+            ['movie_id' => 12, 'episode' => 'Episode 10', 'title' => 'The One With Christmas in Tulsa'],
+            ['movie_id' => 13, 'episode' => 'Episode 1', 'title' => 'Pilot'],
+            ['movie_id' => 13, 'episode' => 'Episode 2', 'title' => 'Magazine Profile'],
+            ['movie_id' => 13, 'episode' => 'Episode 3', 'title' => 'Shots and Salsa'],
+            ['movie_id' => 13, 'episode' => 'Episode 4', 'title' => 'Mannequin'],
+            ['movie_id' => 13, 'episode' => 'Episode 5', 'title' => 'Shoplifter'],
+            ['movie_id' => 13, 'episode' => 'Episode 6', 'title' => 'Secret Shopper'],
+            ['movie_id' => 13, 'episode' => 'Episode 7', 'title' => 'Color Wars'],
+            ['movie_id' => 13, 'episode' => 'Episode 8', 'title' => 'Wedding Day Sale'],
+            ['movie_id' => 13, 'episode' => 'Episode 9', 'title' => 'All-Nighter'],
+            ['movie_id' => 13, 'episode' => 'Episode 10', 'title' => 'Demotion'],
+        ]);
+    }
+}

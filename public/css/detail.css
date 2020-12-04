@@ -1,0 +1,32 @@
+.checked {
+    color: orange;
+}
+
+.movie-img{
+    height: 350px;
+    width: 250px;
+}
+
+.movie-detail{
+    background-color: white;
+    padding: 30px 10px;
+    border-radius: 20px;
+    display: inline-flex;
+    margin-bottom: 60px;
+}
+
+.col-md-4 h2, .desc p, .col-md-4 p, .col-md-4 h2, th, td, .pagenum{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.col-md-4 h2, .col-md-4 h2{
+    font-weight: bold;
+}
+
+.desc p, .col-md-4 p, th, td, .pagenum{
+    font-size: 18px;
+}
+
+.col-md-4, .col-md-3{
+    margin-left: 20px;
+}
